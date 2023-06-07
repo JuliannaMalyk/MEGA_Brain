@@ -427,19 +427,24 @@ transform: scale(1.5);
         width: 80px;
         height: 80px;
     }
-    .modal__box  {
-        width: 300px;
-        min-height: 250px;
-        padding: 20px;
+  .modal__box  {
+        width: 400px;
+        min-height: 300px;
+        padding: 30px;
+    }
+    .modal__content h2 {
+        font-size: 25px;
+    }
+    .modal__box p {
+        font-size: 35px;
     }
     .modal__content {
-        
-        gap: 10px;
+        gap: 15px;
         font-size: 16px;
         margin-bottom: 15px;
     }
-    .answer__text {
-        font-size: 18px;
+    .answer__text h3 {
+        font-size: 25px;
     }
    
 }
