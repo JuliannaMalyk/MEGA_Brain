@@ -14,11 +14,11 @@ answer.addEventListener("click",function() {
 openQuestion.forEach((button) => {
     button.addEventListener("click", (e) => {
         e.preventDefault();
-        //світова література
+        //незвичні зображення на прапорах
         if (e.srcElement.attributes.id.nodeValue == "topic1__question1") {
             let innerHTML_h2 = "<h2>Запитання 1</h2>";
-            let innerHTML_P = "<p>Так називають мову двох осіб у драматичному творі.</p>";
-            let innerHTML_h3 = "<h3>Діалог</h3>";
+            let innerHTML_P = "<p>На прапорі цієї європейської країни можна побачити ключі від воріт раю.</p>";
+            let innerHTML_h3 = "<h3>Ватикан</h3>";
             
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
@@ -26,65 +26,65 @@ openQuestion.forEach((button) => {
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic1__question2") {
             let innerHTML_h2 = "<h2>Запитання 2 </h2>";
-            let innerHTML_P = "<p>Саме стільки духів Різдва з'явилось до Скруджа у творі Діккенса.</p>";
-            let innerHTML_h3 = "<h3>Три</h3>";
+            let innerHTML_P = "<p>На прапорі цієї європейської острівної держави можна побачити її географічне зображення.</p>";
+            let innerHTML_h3 = "<h3>Кіпр</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic1__question3") {
             let innerHTML_h2 = "<h2>Запитання 3 </h2>";
-            let innerHTML_P = "<p>Ця країна є батьківщиною Ганса Крістіана Андерсена.</p>";
-            let innerHTML_h3 = "<h3>Данія</h3>";
+            let innerHTML_P = "<p>На прапорі цієї азійської країни, де дуже чисте повітря, зображено велетенського дракона.</p>";
+            let innerHTML_h3 = "<h3>Бутан</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic1__question4") {
             let innerHTML_h2 = "<h2>Запитання 4 </h2>";
-            let innerHTML_P = "<p>Цьому українському гетьманові, якого оспівав Байрон, присвячено 186 гравюр, 42 картини, 22 музичні композиції, 17 літературних творів, 6 скульптур.</p>";
-            let innerHTML_h3 = "<h3>Іван Мазепа</h3>";
+            let innerHTML_P = "<p>На прапорі цієї азійської країни можна побачити зображення найбільшого культового комплексу у світі Ангкор-Ват.</p>";
+            let innerHTML_h3 = "<h3>Камбоджа</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic1__question5") {
             let innerHTML_h2 = "<h2>Запитання 5 </h2>";
-            let innerHTML_P = "<p>Таке ім'я отримала жінка, статую якої виготовив Пігмаліон, а потім закохався у неї.</p>";
-            let innerHTML_h3 = "<h3>Галатея</h3>";
+            let innerHTML_P = "<p>На прапорі цієї африканської країни можна побачити автомат Калашникова.</p>";
+            let innerHTML_h3 = "<h3>Мозамбік</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
-        //голлівуд
+        //сузір'я
         else if (e.srcElement.attributes.id.nodeValue == "topic2__question1") {
             let innerHTML_h2 = "<h2>Запитання 1</h2>";
-            let innerHTML_P = "<p>Цей актор зіграв головну роль у різдвяній комедії ''Сам удома''. </p>";
-            let innerHTML_h3 = "<h3>Маколей Калкін</h3>";
+            let innerHTML_P = "<p>Саме стільки є зодіакальних сузір'їв. </p>";
+            let innerHTML_h3 = "<h3>12</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic2__question2") {
             let innerHTML_h2 = "<h2>Запитання 2</h2>";
-            let innerHTML_P = "<p>Цей фільм Джеймса Кемерона у 1997 році отримав 11 нагород Оскар.</p>";
-            let innerHTML_h3 = "<h3>''Титанік''</h3>";
+            let innerHTML_P = "<p>Саме під цим зодіакальним сузір'ям народився Тарас Шевченко.</p>";
+            let innerHTML_h3 = "<h3>Риби</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic2__question3") {
             let innerHTML_h2 = "<h2>Запитання 3</h2>";
-            let innerHTML_P = "<p>Голлівуд знаходиться поблизу цього мегаполіса.</p>";
-            let innerHTML_h3 = "<h3>Лос-Анджелес</h3>";
+            let innerHTML_P = "<p>Саме в цьому сузір'ї можна побачити полярну зірку.</p>";
+            let innerHTML_h3 = "<h3>Мала Ведмедиця</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic2__question4") {
             let innerHTML_h2 = "<h2>Запитання 4</h2>";
-            let innerHTML_P = "<p>Премію американської кіноакадемії, відому як ''Оскар'', вручають з цього року.</p>";
-            let innerHTML_h3 = "<h3>1929</h3>";
+            let innerHTML_P = "<p>Це сузір'я названо на честь двох братів - Кастора та Полідевка.</p>";
+            let innerHTML_h3 = "<h3>Близнюки</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic2__question5") {
             let innerHTML_h2 = "<h2>Запитання 5</h2>";
-            let innerHTML_P = "<p>Фраза ''Hasta la vista'' стала популярною завдяки цьому кіногерою.</p>";
-            let innerHTML_h3 = "<h3>Термінатор</h3>";
+            let innerHTML_P = "<p>Саме це сузір'я можна побачити на прапорі Нової Зеландії.</p>";
+            let innerHTML_h3 = "<h3>Сузір'я Південний Хрест</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
