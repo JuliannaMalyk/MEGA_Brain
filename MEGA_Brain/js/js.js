@@ -88,183 +88,183 @@ openQuestion.forEach((button) => {
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
-        //цікаве закарпаття
+        //шахи
         else if (e.srcElement.attributes.id.nodeValue == "topic3__question1") {
             let innerHTML_h2 = "<h2>Запитання 1</h2>";
-            let innerHTML_P = "<p>На гербі Закарпатської області зображено цього хижака.</p>";
-            let innerHTML_h3 = "<h3>Ведмідь</h3>";
+            let innerHTML_P = "<p>Саме стільки клітинок на шаховій дошці.</p>";
+            let innerHTML_h3 = "<h3>64</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic3__question2") {
             let innerHTML_h2 = "<h2>Запитання 2</h2>";
-            let innerHTML_P = "<p>Сучасний санаторій Карпати розміщений у колишній мисливській резиденції цих аристократів.</p>";
-            let innerHTML_h3 = "<h3>Шенборн</h3>";
+            let innerHTML_P = "<p>Саме у цій країні вигадали шахи.</p>";
+            let innerHTML_h3 = "<h3>Індія</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic3__question3") {
             let innerHTML_h2 = "<h2>Запитання 3</h2>";
-            let innerHTML_P = "<p>Столицею Карпатської України було саме це місто.</p>";
-            let innerHTML_h3 = "<h3>Хуст</h3>";
+            let innerHTML_P = "<p>Саме так називається нічия у шахах.</p>";
+            let innerHTML_h3 = "<h3>Пат</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic3__question4") {
             let innerHTML_h2 = "<h2>Запитання 4</h2>";
-            let innerHTML_P = "<p>Єпископська резиденція греко-католицької Мукачівської єпархії знаходиться у цьому місті.</p>";
-            let innerHTML_h3 = "<h3>Ужгород</h3>";
+            let innerHTML_P = "<p>Цю шахову фігуру у деяких країнах називають єпископом.</p>";
+            let innerHTML_h3 = "<h3>Слон</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic3__question5") {
             let innerHTML_h2 = "<h2>Запитання 5</h2>";
-            let innerHTML_P = "<p>Яку назву, у наш час, має місто Севлюш.</p>";
-            let innerHTML_h3 = "<h3>Виноградів</h3>";
+            let innerHTML_P = "<p>Він отримав 50 точок для Гріффіндору за найкращу шахову партію.</p>";
+            let innerHTML_h3 = "<h3>Рон Візлі</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
-        //видатні українці
+        //Колекціонування
         else if (e.srcElement.attributes.id.nodeValue == "topic4__question1") {
             let innerHTML_h2 = "<h2>Запитання 1</h2>";
-            let innerHTML_P = "<p>Перший президент незалежної України?</p>";
-            let innerHTML_h3 = "<h3>Леонід Макарович Кравчук</h3>";
+            let innerHTML_P = "<p>Саме це колекціонують медальєристи.</p>";
+            let innerHTML_h3 = "<h3>Медалі (ордени).</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic4__question2") {
             let innerHTML_h2 = "<h2>Запитання 2</h2>";
-            let innerHTML_P = "<p>Це відомий політик, полководець, дипломат, засновник  Української козацької держави та її перший гетьман.</p>";
-            let innerHTML_h3 = "<h3>Богдан Зиновій Хмельницький</h3>";
+            let innerHTML_P = "<p>Саме це колекціонують філателісти.</p>";
+            let innerHTML_h3 = "<h3>Поштові марки.</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic4__question3") {
             let innerHTML_h2 = "<h2>Запитання 3</h2>";
-            let innerHTML_P = "<p>Вона відома сучасна українська поетеса-шістдесятниця, письменниця, дисидент.У 1967 році разом з Павлом Тичиною та Іваном Драчем номінована на Нобелівську премію з літератури.</p>";
-            let innerHTML_h3 = "<h3>Ліна Василівна Костенко</h3>";
+            let innerHTML_P = "<p>Саме це колекціонують нумізмати.</p>";
+            let innerHTML_h3 = "<h3>Монети</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic4__question4") {
             let innerHTML_h2 = "<h2>Запитання 4</h2>";
-            let innerHTML_P = "<p>Він засновник друкарської справи, автор першої друкованої в Україні книги ''Апастол''.</p>";
-            let innerHTML_h3 = "<h3>Іван Федоров</h3>";
+            let innerHTML_P = "<p>Саме це колекціонують серпентафіли.</p>";
+            let innerHTML_h3 = "<h3>Змії</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic4__question5") {
             let innerHTML_h2 = "<h2>Запитання 5</h2>";
-            let innerHTML_P = "<p>Справжнє ім'я української письменниці Марко Вовчок.</p>";
-            let innerHTML_h3 = "<h3>Марія Олександрівна Вілінська</h3>";
+            let innerHTML_P = "<p>Саме це колекціонують стилофіли.</p>";
+            let innerHTML_h3 = "<h3>Олівці</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
-        //Зброя
+        //Пішохідний туризм
         else if (e.srcElement.attributes.id.nodeValue == "topic5__question1") {
             let innerHTML_h2 = "<h2>Запитання 1</h2>";
-            let innerHTML_P = "<p>Це - примітивна метальна зброя австралійських аборигенів, що може поранити неуважного мисливця.</p>";
-            let innerHTML_h3 = "<h3>Бумеранг</h3>";
+            let innerHTML_P = "<p>Цей вузол використовують як самостраховку для проходження етапу спуск\підйом спортивним способом? .</p>";
+            let innerHTML_h3 = "<h3>Схоплюючий\Австрійський схоплюючий</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic5__question2") {
             let innerHTML_h2 = "<h2>Запитання 2</h2>";
-            let innerHTML_P = "<p>Саме так називають діаметр каналу дула вогнепальної зброї.</p>";
-            let innerHTML_h3 = "<h3>Калібр</h3>";
+            let innerHTML_P = "<p>Цей вузол використовують для зв'язування прусіка.</p>";
+            let innerHTML_h3 = "<h3>Грейпвайн</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic5__question3") {
             let innerHTML_h2 = "<h2>Запитання 3</h2>";
-            let innerHTML_P = "<p>Коли індіанці ставали на стежку війни, вони викопували цю зброю.</p>";
-            let innerHTML_h3 = "<h3>Томагавк</h3>";
+            let innerHTML_P = "<p>Цей вузол є одним з найдавніших в історії, його називають 'король вузлів'.</p>";
+            let innerHTML_h3 = "<h3>Булінь</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic5__question4") {
             let innerHTML_h2 = "<h2>Запитання 4</h2>";
-            let innerHTML_P = "<p>Саме на нього натискають, щоб вистрілити з пістолета.</p>";
-            let innerHTML_h3 = "<h3>Гачок</h3>";
+            let innerHTML_P = "<p>Саме так називається етап, проходження якого відбувається перпендикулярно до схилу.</p>";
+            let innerHTML_h3 = "<h3>Траверс</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic5__question5") {
             let innerHTML_h2 = "<h2>Запитання 5</h2>";
-            let innerHTML_P = "<p>Саме так називають криву турецьку шаблю.</p>";
-            let innerHTML_h3 = "<h3>Ятаган</h3>";
+            let innerHTML_P = "<p>Як розшифровується ІСС?</p>";
+            let innerHTML_h3 = "<h3>Індивідуальна система страхування</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
-        //Польща
+        //Вулкани
         else if (e.srcElement.attributes.id.nodeValue == "topic6__question1") {
             let innerHTML_h2 = "<h2>Запитання 1</h2>";
-            let innerHTML_P = "<p>Це польське місто разом із Варшавою є лідером за кількістю туристів, що їх відвідують.</p>";
-            let innerHTML_h3 = "<h3>Краків</h3>";
+            let innerHTML_P = "<p>Цей вулкан знищив відоме місто Помпеї.</p>";
+            let innerHTML_h3 = "<h3>Везувій</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic6__question2") {
             let innerHTML_h2 = "<h2>Запитання 2</h2>";
-            let innerHTML_P = "<p>Найвища гора Польщі - Риси - знаходиться в цьому гірському хребті.</p>";
-            let innerHTML_h3 = "<h3>Татри</h3>";
+            let innerHTML_P = "<p>Цей вулкан є найвищою вершиною Африки.</p>";
+            let innerHTML_h3 = "<h3>Кіліманджаро</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic6__question3") {
             let innerHTML_h2 = "<h2>Запитання 3</h2>";
-            let innerHTML_P = "<p>Саме ця річка протікає через столицю Польщі.</p>";
-            let innerHTML_h3 = "<h3>Вісла</h3>";
+            let innerHTML_P = "<p>Неподалік від Ужгорода знаходиться згаслий кратер цього вулкану.</p>";
+            let innerHTML_h3 = "<h3>Анталовецька поляна</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic6__question4") {
             let innerHTML_h2 = "<h2>Запитання 4</h2>";
-            let innerHTML_P = "<p>Це найбільше польське місто на річці Одра.</p>";
-            let innerHTML_h3 = "<h3>Вроцлав</h3>";
+            let innerHTML_P = "<p> Гора Олімп є згаслим і найбільшим вулканом у Сонячній системі, на якій планеті?</p>";
+            let innerHTML_h3 = "<h3>Марс (висота Олімпу 26 км.)</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic6__question5") {
             let innerHTML_h2 = "<h2>Запитання 5</h2>";
-            let innerHTML_P = "<p>Це місто найбільший польський порт на узбережжі Балтійського моря.</p>";
-            let innerHTML_h3 = "<h3>Гданськ</h3>";
+            let innerHTML_P = "<p>Вулкан 'Еребус', як не дивно, знаходиться саме на цьому материку.</p>";
+            let innerHTML_h3 = "<h3>Антарктида</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
-        //час
+        //Українські традиції
         else if (e.srcElement.attributes.id.nodeValue == "topic7__question1") {
             let innerHTML_h2 = "<h2>Запитання 1</h2>";
-            let innerHTML_P = "<p>Так називають проміжок часу, близький до періоду одного обертання Землі навколо Сонця.</p>";
-            let innerHTML_h3 = "<h3>Рік</h3>";
+            let innerHTML_P = "<p>Так називають традиційний весільний обрядовий хліб.</p>";
+            let innerHTML_h3 = "<h3>Коровай</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic7__question2") {
             let innerHTML_h2 = "<h2>Запитання 2</h2>";
-            let innerHTML_P = "<p>Так називають проміжок часу, близький до періоду обертання Місяця навколо Землі.</p>";
-            let innerHTML_h3 = "<h3>Місяць</h3>";
+            let innerHTML_P = "<p>Зібрані трави у цей день вважалися особливо цінними у народній магії.</p>";
+            let innerHTML_h3 = "<h3>В ніч на Івана Купала</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic7__question3") {
             let innerHTML_h2 = "<h2>Запитання 3</h2>";
-            let innerHTML_P = "<p>Так називають відрізок часу, що дорівнює 3600 секундам.</p>";
-            let innerHTML_h3 = "<h3>Година</h3>";
+            let innerHTML_P = "<p>Який напій, найчастіше готували до столу на Святвечір?</p>";
+            let innerHTML_h3 = "<h3>Узвар</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic7__question4") {
             let innerHTML_h2 = "<h2>Запитання 4</h2>";
-            let innerHTML_P = "<p>Так називають 1/1440 частину доби.</p>";
-            let innerHTML_h3 = "<h3>Хвилина</h3>";
+            let innerHTML_P = "<p>Як називається хліб, що пекли спеціально для Андріївських вечорниць?</p>";
+            let innerHTML_h3 = "<h3>Калита</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic7__question5") {
             let innerHTML_h2 = "<h2>Запитання 5</h2>";
-            let innerHTML_P = "<p>Саме стільки секунд в одній добі.</p>";
-            let innerHTML_h3 = "<h3>86400</h3>";
+            let innerHTML_P = "<p>Саме так називалась поминальна кутя українців.</p>";
+            let innerHTML_h3 = "<h3>Коливо</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
         } 
