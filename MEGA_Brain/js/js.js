@@ -26,7 +26,7 @@ openQuestion.forEach((button) => {
         } 
         else if (e.srcElement.attributes.id.nodeValue == "topic1__question2") {
             let innerHTML_h2 = "<h2>Запитання 2 </h2>";
-            let innerHTML_P = "<p>Цей вулкан - найвища точка "чорного континенту".</p>";
+            let innerHTML_P = "<p>Цей вулкан - найвища точка 'чорного континенту'.</p>";
             let innerHTML_h3 = "<h3>Кіліманджаро</h3>";
             modalContent.innerHTML = innerHTML_h2 + innerHTML_P;
             answerText.innerHTML = innerHTML_h3;
