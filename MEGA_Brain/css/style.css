@@ -66,6 +66,7 @@ body {
 .logo__text {
     font-size: 45px;
     font-weight: 700;
+     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.5em;
     color: #031121;
